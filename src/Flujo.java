@@ -1,10 +1,10 @@
-package excepciones;
 
 public class Flujo {
 
 	public static void main(String[] args) {
         System.out.println("Inicio main");
-        metodo1();
+            metodo1();
+
         System.out.println("Fin de main");
     }
 
@@ -22,8 +22,7 @@ public class Flujo {
 
     private static void metodo2() throws MiException {
         System.out.println("Inicio de metodo2");
-        throw new ArithmeticException("dio error");
-        // System.out.println("Fin de metodo2");
+      System.out.println("Fin de metodo2");
     }
 
 	

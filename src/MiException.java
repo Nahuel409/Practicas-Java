@@ -1,4 +1,3 @@
-package excepciones;
 
 public class MiException extends Exception {
 

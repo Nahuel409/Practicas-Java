@@ -28,12 +28,17 @@ public class Clase12 {
         listaAlumnos.add(alumno7);
         listaAlumnos.add(alumno8);
 
+        for(String alumnos: listaAlumnos){
+            System.out.println(alumnos);
+        }
+        for (int i=0; i<9; i++){
+
+        }
+
+
         listaAlumnos.forEach(alumno -> {
             System.out.println(alumno);
         });
-
-
-
 
     }
 }

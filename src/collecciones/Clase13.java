@@ -38,14 +38,14 @@ public class Clase13 {
         boolean valida = listaAlumnos.contains("Pedro Pedrito");
         System.out.println(valida);
         String max = listaAlumnos.stream().max(Comparator.comparingInt(String::length)).get();
-
+        System.out.println(max);
         listaAlumnos.removeIf(alumno ->"Pepito los palotes".equalsIgnoreCase(alumno));
 
 
-        listaAlumnos.forEach(alumno -> {
+       /* listaAlumnos.forEach(alumno -> {
             System.out.println(alumno);
 
-        });
+        }); */
 
     }
 }

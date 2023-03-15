@@ -28,7 +28,10 @@ public class Clase11 {
         listaAlumnos.add(alumno6);
 
         for (String alumno: listaAlumnos) {
-            System.out.println(alumno);
+            if(alumno == "Juan Carlos"){
+                System.out.println("ENCONTRADO"); }else {
+                System.out.println("No encontrado");
+            }break;
         }
 
 
